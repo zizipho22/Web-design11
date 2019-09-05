@@ -1,0 +1,362 @@
+ /* header{
+  display: flex;
+  justify-content: center;
+  background-image: url(laptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  height: 100vh;
+} */
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+.lu{
+  background-color: red;
+  position: fixed;
+  top: 0;
+
+}
+header{
+  height: 95vh;
+  background-image: url(laptop.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.text-box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-primary{
+  color: whitesmoke;
+  font-weight: bolder;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+
+}
+.hlehle
+.heading-primary-main{
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+color: whitesmoke;
+line-height: 80px;
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  color: whitesmoke;
+  line-height: 60px;
+
+}
+
+.stklm{
+  font-family: 'Damion', cursive;
+font-size: 40px;
+}
+.chec{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+padding: 12px;
+  cursor:pointer;
+  overflow: hidden;
+
+
+}
+/* .lu{
+  scroll-behavior: smooth;
+
+} */
+
+.lu {
+    }
+.lu ul{
+width: 100%;
+    scroll-behavior: smooth;
+
+}
+.lu li{
+list-style: none;
+color: white;
+text-align: center;
+margin-right: 139px;
+font-size: 20px;
+float: right;
+
+display: inline-block;
+padding-top: 13px;
+}
+.lu a {
+  text-decoration: none;
+    /* transform: translateX(-250px); */
+
+  color: black;
+
+
+}
+.lu li a:hover{
+  color: white;
+}
+
+.yakha{
+  color: white;
+}
+.dots{
+  color: red;
+  height: 50px;
+  width: 50px;
+  margin-top: 200px;
+  margin-left: -110px;
+
+position: absolute;
+}
+.nana{
+margin-bottom: 23px;
+}
+.lindeni{
+  line-height: 49px;
+}
+.columns{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px 100px;
+}
+.row{
+  background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url(trees.jpg);
+  text-align: center;
+  background-color: grey;
+}
+.row1 h2{
+  color: white;
+}
+.row1 p{
+  color: white;
+}
+.row1 h3{
+  color: orange;
+}
+.text-box span{
+  color: white;
+
+}
+
+#kims{
+  background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url(trees.jpg);
+  text-align: center;
+  background-color: grey;
+}
+.awesome {
+  display: flex;
+  justify-content: center;
+}
+.awesome h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  padding-top: 100px;
+}
+.mass {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.pharagraph {
+  padding: 30px;
+  width: 30%;
+  margin-right: 30px;
+}
+.pic img{
+  width: 400px;
+  height: 400px;
+}
+.pictures1{
+  display: flex;
+  justify-content: center;
+}
+.pictures2{
+  display: flex;
+  justify-content: center;
+}
+#kims{
+display: flex;
+justify-content: space-around;
+background-color: grey;
+color: white;
+padding: 50px 150px;
+}
+.kim1{
+  text-align: center;
+}
+.gofi{
+  display: flex;
+  text-align: center;
+  margin-left: 200px;
+  padding-left: 200px;
+}
+
+button{
+  font-size: 20px;
+  text-align: center;
+  background-color: #FFC300;
+  border: none;
+  margin-bottom: 50px;
+  padding: 15px 30px;
+}
+
+  .leol{
+    background-color: #5c5c5a;
+    display: flex;
+    height: 300px;
+
+}
+
+.design{
+  transform: translateX(60px);
+
+}
+.design p {
+  color: gray;
+}
+.otha img{
+  height: 20px;
+  width: 20px;
+
+}
+.zilo img{
+  height: 20px;
+  width: 20px;
+
+}
+.jali img{
+  height: 20px;
+  width: 20px;
+}
+.rita img{
+  height: 20px;
+  width: 20px;
+}
+.icons{
+  text-align: center;
+  display: flex;
+}
+.hlehle{
+  transform: translateX(300px) translateY(50px);
+  border-left: 1px solid grey;
+  height: 200px;
+}
+.hlehle h1{
+  transform: translateX(30px) translateY(-50px);
+
+}
+.hlehle img{
+  transform: translateX(30px) translateY(-50px);
+  height: 200px;
+}
+.buhle{
+  transform: translateX(150px) translateY(30px);
+  line-height: 25px;
+  border-left: 1px solid grey;
+  height: 200px;
+  margin-right: 180px;
+
+}
+.buhle p{
+  transform: translateX(20px)
+  color: red;
+}
+.phagraph {
+  color: gray;
+}
+.buhle h1  {
+  transform: translateX(20px)
+}
+.nija{
+  transform: translateX(110px) translateY(30px);
+  line-height: 25px;
+  height: 200px;
+  border-left: 1px solid grey;
+}
+.nija h1{
+  transform: translateX(20px);
+
+}
+.nija p{
+  transform: translateX(20px);
+  color: grey;
+}
+.kim1 img{
+  width: 50px;
+  height: 50px;
+}
+.kim1 h6{
+  color: white;
+  font-size: 15px;
+}
+/* .kims1 img{
+  color: white;
+} */
+.columns img{
+  width: 40px;
+
+  height: 60px;
+  background-color: orange;
+  border: 20px solid orange;
+  border-radius: 100px;
+
+}
+.nija h1{
+  color: white;
+}
+.buhle h1{
+  color: white;
+}
+.hlehle h1{
+  color: white;
+}
+.design h1{
+  color: white;
+}
+.jiko {
+  margin-left: 50px;
+}
+.jiko h1{
+color: white;
+}
+.jiko1 img{
+  width: 100px;
+  height: 100px;
+}
+.jiko2 img{
+  width: 100px;
+  height: 100px;
+}
+
+.pho{
+  border-radius: 30px;
+  margin: 10px;
+}
+
+ul {
+  background-color: white;
+  height: 100px;
+}
